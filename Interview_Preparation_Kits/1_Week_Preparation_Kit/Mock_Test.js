@@ -34,7 +34,7 @@ function readLine() {
 function findMedian(arr) {
     // Write your code here
     let index=0;
-    arr.sort();
+    arr.sort((a,b) => a-b);
     index=Math.floor(arr.length / 2)
     return arr[index];
 }
