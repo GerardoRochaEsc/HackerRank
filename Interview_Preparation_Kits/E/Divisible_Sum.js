@@ -41,6 +41,11 @@ function readLine() {
  *  3. INTEGER_ARRAY ar
  */
 
+//k=5
+//[0,1],[0,2],[0,3],[0,4]
+//[1,2],[1,3],[1,4]
+//[2,3],[2,4]
+//[3,4] 
 function divisibleSumPairs(n, k, ar) {
     // Write your code here
     let pairCounter=0;
