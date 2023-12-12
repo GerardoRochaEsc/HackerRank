@@ -43,8 +43,7 @@ function permutationEquation(p) {
     // Write your code here
     const array=[]
     for (let i = 1; i <= p.length; i++) {
-        array.push(p.indexOf(p.indexOf(i)+1)+1);
-        
+        array.push(p.indexOf(p.indexOf(i)+1)+1);//Pushing the index to the integer array  
     }
     return array;
 }
